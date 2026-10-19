@@ -2,9 +2,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 import unittest
 
-from tstools.moments import get_mean_and_var
-from tstools.vis import plot_histogram, plot_trajectory_subset
-
+# from tstools.moments import get_mean_and_var
+# from tstools.vis import plot_histogram, plot_trajectory_subset
+import tstools
 
 class Testtstools(unittest.TestCase):
     def setUp(self):
